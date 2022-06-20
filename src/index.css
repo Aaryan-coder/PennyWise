@@ -1,0 +1,350 @@
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background-color: honeydew;
+}
+
+.navbar {
+  margin: 0;
+  border: 0;
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  background-color: white;
+  font-size: 20px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  overflow: hidden;
+}
+
+.right {
+  margin-top: -5px;
+  margin-right: auto;
+  height: 100px;
+  width: 100px;
+}
+li {
+  margin-top: 35px;
+  margin-right: 50px;
+  cursor: pointer;
+  color: black;
+  font-family: "Lato", sans-serif;
+}
+
+li:hover {
+  color: blue;
+}
+
+.finance {
+  max-height: 650px;
+  max-width: 100%;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.goal {
+  text-align: center;
+  font-size: 40px;
+  cursor: pointer;
+  font-family: "Lato", sans-serif;
+}
+
+.goal:hover {
+  color: blue;
+}
+
+.goalLine {
+  margin-top: -22px;
+  align-self: center;
+  width: 150px;
+  border: 1px solid black;
+}
+
+.goalLine:hover {
+  color: blue;
+}
+
+.para {
+  font-size: 50px;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.container {
+  margin-top: 100px;
+  position: relative;
+  text-align: center;
+  color: brown;
+  font-size: 40px;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  font-family: "Gentium Plus", serif;
+}
+
+.card {
+  margin: 30px;
+  background: #fff;
+  border-radius: 1rem;
+  padding: 1rem 1rem;
+}
+
+.content {
+  margin: 10px;
+  font-size: 29px;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.allign2 {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  margin-top: 0px;
+}
+
+.allign3 {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  margin-top: -20px;
+  margin-left: -280px;
+}
+
+.allign {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  margin-top: -700px;
+}
+
+.aboutallign {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  margin-top: -800px;
+  margin-left: -300px;
+}
+
+@media screen and (min-width: 768px) {
+  .allign {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.card h1 {
+  padding-top: 4px;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+}
+
+.card button {
+  background-color: lightblue;
+  padding: 8px;
+  border-radius: 12px;
+  font-size: 24px;
+  text-align: center;
+  margin-left: 30%;
+  cursor: pointer;
+}
+
+.card button:hover {
+  background-color: lightskyblue;
+}
+
+.social {
+  margin-top: -15px;
+  align-self: center;
+  width: 300px;
+  border: 1px solid black;
+}
+
+.contact {
+  margin-top: -22px;
+  align-self: center;
+  width: 150px;
+  border: 1px solid black;
+}
+/*
+.team:hover {
+  transform: scaleY(1.2);
+}*/
+
+.underline {
+  text-decoration: none;
+}
+
+hr {
+  border: 1px solid black;
+}
+.news {
+  position: absolute;
+  right: 250px;
+  font-size: 30px;
+}
+.quick {
+  position: absolute;
+  left: 430px;
+  font-size: 30px;
+  padding-left: 50px;
+}
+.letter1,
+.letter2 {
+  position: absolute;
+  right: 250px;
+  font-size: 20px;
+  margin-top: 80px;
+  width: 350px;
+}
+.letter3 {
+  position: absolute;
+  right: 250px;
+  font-size: 20px;
+  margin-top: 80px;
+  width: 350px;
+  background-color: lightblue;
+  height: 30px;
+  cursor: pointer;
+}
+.letter3:hover {
+  font-style: italic;
+  background-color: lightskyblue;
+}
+
+.click {
+  background-color: lightblue;
+  font-size: 30px;
+  border-radius: 20px;
+  cursor: pointer;
+  padding: 8px;
+}
+
+.click:hover {
+  background-color: lightskyblue;
+}
+
+.bitcoin {
+  height: 200px;
+  width: 300px;
+  margin-left: 10%;
+}
+
+.link li {
+  list-style: none;
+  margin-top: 20px;
+  margin-left: 50px;
+  cursor: pointer;
+}
+
+.top {
+  padding-top: 30px;
+}
+
+.left {
+  padding-left: 100px;
+}
+
+.team {
+  max-height: 400px;
+  max-width: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+.team2 {
+  max-height: 800px;
+  max-width: 100%;
+  width: 100%;
+  overflow: hidden;
+  margin-top: 50px;
+}
+.centerteam {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Gentium Plus", serif;
+}
+
+.container2 {
+  margin-top: 750px;
+  margin-bottom: 20px;
+  position: relative;
+  text-align: center;
+}
+
+.name:hover {
+  transform: scaleY(1.2);
+}
+.container3 {
+  margin-top: 100px;
+  position: relative;
+  text-align: center;
+  color: brown;
+  font-size: 30px;
+}
+
+.centered2 {
+  position: absolute;
+  top: 50%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  font-family: "Gentium Plus", serif;
+}
+
+.finance2 {
+  max-height: 500px;
+  max-width: 100%;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.storyLine {
+  align-self: center;
+  width: 150px;
+  border: 1px solid black;
+  margin-top: -10px;
+}
+
+.teamImg {
+  height: 500px;
+  width: 500px;
+  position: relative;
+  overflow: hidden;
+  margin-left: 50px;
+  margin-right: 30px;
+  margin-top: 20px;
+  float: left;
+}
+
+.container4 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  position: relative;
+  text-align: center;
+}
+
+.container5 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  position: relative;
+  text-align: center;
+}
+.hover {
+  background-color: lightblue;
+}
+.hover:hover {
+  background-color: lightskyblue;
+}
